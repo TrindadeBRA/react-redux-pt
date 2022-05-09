@@ -1,5 +1,5 @@
 export default function(props) {
-    console.log(props)
+    // console.log(props)
     return(
         <div>
             <h2>{props.titulo}</h2>

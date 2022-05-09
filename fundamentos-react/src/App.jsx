@@ -7,6 +7,8 @@ import Aleatorio from './components/basicos/Aleatorio.tsx';
 import Fragmento from './components/basicos/Fragmento.tsx';
 import ComParametro from './components/basicos/ComParametro.tsx';
 import Primeiro from './components/basicos/Primeiro.tsx';
+import Familia from './components/basicos/Familia.tsx';
+import FamiliaMembro from './components/basicos/FamiliaMembro.tsx';
 
 
 export default () => {
@@ -15,6 +17,15 @@ export default () => {
             <h1>Fundamentos React</h1>
 
             <div className="cards">
+
+                <Card titulo="#05 - Componente com filhos">
+                    <Familia sobrenome="Trindade">
+                        <FamiliaMembro nome="Lucas"/>
+                        <FamiliaMembro nome="Lavinia"/>
+                        <FamiliaMembro nome="Veridiana"/>
+                    </Familia>
+                </Card>
+
                 <Card titulo="#04 - Desafio Aleatório">
                     <Aleatorio min={10} max={150}/>
                 </Card>

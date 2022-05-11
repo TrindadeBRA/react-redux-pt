@@ -1,0 +1,13 @@
+.Mega input{
+    font-size: 1.4rem;
+    width: 50px;
+}
+
+.Mega label{
+    margin-right: 15px;
+}
+
+.form-qntd {
+    margin: 20px 0;
+    font-weight: 300;
+}

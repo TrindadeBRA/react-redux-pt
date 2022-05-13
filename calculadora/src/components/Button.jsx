@@ -8,6 +8,7 @@ const Button = (props) => {
     classes += props.double ? 'double' : ''
     classes += props.triple ? 'triple' : ''
     
+    
     return (
         <button className={classes} onClick={e =>props.click && props.click(props.label)}
         >
